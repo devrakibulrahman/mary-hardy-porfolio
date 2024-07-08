@@ -47,6 +47,7 @@
 }
 
 .btn-secondary:hover{
+    background: rgb(253, 110, 10);
     border: 1px solid rgb(253, 110, 10);
     color: #FFFFFF;
 }
@@ -62,11 +63,14 @@
     width: 100%;
     height: 100vh;
     background-color: rgb(255, 248, 243);
+    background-image: url(../img/developer.png), url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top 50% left 40px, bottom right;
 }
 
 #header{
     width: 100%;
-    padding-top: 51px;
+    padding-top: 61px;
 }
 
 .header-nav{
@@ -115,20 +119,49 @@
 }
 
 .hero-section .hero-content-details{
-    max-width: 550px;
-    background-color: #FD6E0A;
+    max-width: 590px;
     height: auto;
     margin-left: 240px;
+}
+
+.hero-section .hero-content-details .hero-sub-header{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    margin-bottom: 5px;
+}
+
+.hero-section .hero-content-details .hero-heading{
+    font-size: 85px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-content-details .hero-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.hero-section .btn-box .ml{
+    margin-left: 30px;
 }
 
 .hero-section .hero-img{
     width: 584px;
     height: 676px;
-    position: absolute;
-    right: 38px;
-    top: 800px;
-    
+    margin-top: 161px;
+    margin-right: 38px;
 }
+
+/* #header-body .side-img{
+    width: 774px;
+    height: 136px;
+    background-image: url(../img/developer.png);
+} */
 
 /* ============================== header section (hero section) end =============================== */
 
