@@ -363,3 +363,106 @@
     margin-top: 50px;
 }
 /* ============================== resume & education section end =============================== */
+
+/* ============================== contact section start =============================== */
+#contact-body{
+    width: 100%;
+    height: 780px;
+    background-color: rgb(255, 248, 243);
+}
+
+.contact-content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 117px;
+}
+
+.contact-content-container .contact-text-content{
+    width: 562px;
+    margin-top: 130px;
+}
+
+.contact-content-container .contact-text-content .contact-title{
+    font-size: 35px;
+    font-weight: 700;
+    color:rgb(24, 24, 24);
+    margin-bottom: 20px;
+}
+
+.contact-content-container .contact-text-content .contact-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 30px;
+}
+
+.contact-content-container .contact-text-content .contact-icon .icon{
+    margin-right: 24px;
+}
+
+.contact-content-container .contact-form-content{
+    width: 461px;
+    margin-top: 130px;
+}
+
+.contact-content-container .contact-form-content .contact-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+    margin-bottom: 28px;
+}
+
+.contact-content-container .contact-form-content .contact-form-container{
+    width: 100%;
+}
+
+.contact-content-container .contact-form-content .contact-form-container .input-field{
+    display: block;
+    width: 100%;
+    height: 64px;
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 18px 30px 18px;
+}
+
+.contact-content-container .contact-form-content .contact-form-container .text-field{
+    width: 100%;
+    height: 180px;
+    resize: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 18px 30px 18px;
+    margin-bottom: 24px;
+}
+/* ============================== contact section end =============================== */
+
+/* ============================== footer section start =============================== */
+#footer-body{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text-content{
+    text-align: center;
+}
+
+.footer-text-content .footer-para{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(71, 71, 71);
+}
+
+.footer-text-content .text-color{
+    color: rgb(253, 110, 10);
+}
+/* ============================== footer section end =============================== */
